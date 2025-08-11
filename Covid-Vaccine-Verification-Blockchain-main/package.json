@@ -1,0 +1,50 @@
+{
+  "name": "blockchain-vaccination-system",
+  "version": "1.0.0",
+  "description": "Blockchain-based Child Vaccination System",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "ethers": "^5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^3.4.0"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "truffle": "^5.11.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --reset",
+    "migrate:development": "truffle migrate --network development --reset",
+    "console": "truffle console",
+    "test:contracts": "truffle test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
